@@ -1,2 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using ConsoleSample.QueueSample;
+
+var test = new Priority();
+
+await test.RunPriority();
