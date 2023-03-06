@@ -2,4 +2,4 @@
 
 var test = new Priority();
 
-await test.RunPriority();
+await test.Run();
